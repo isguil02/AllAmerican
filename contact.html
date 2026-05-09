@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | All American Construction LLC</title>
+    <meta name="description" content="Contact All American Construction LLC for a free quote on your next project.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="components.js" defer></script>
+</head>
+<body>
+
+    <app-header></app-header>
+
+    <main>
+        <header class="page-header">
+            <div class="fade-in">
+                <h1>Contact Us</h1>
+                <p>We're ready to start building trust.</p>
+            </div>
+        </header>
+
+        <section class="section-container fade-in">
+            <div class="grid-2">
+                <div>
+                    <h2>Get In Touch</h2>
+                    <p>Have a project in mind? From big jobs to small ones, give us a call! We offer free estimates and stand by the quality of our craftsmanship.</p>
+                    
+                    <div style="margin-top: 2rem;">
+                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 1.5rem;">
+                            <div style="font-size: 1.5rem; color: var(--secondary-color);">📍</div>
+                            <div>
+                                <h4 style="margin-bottom: 0;">Location</h4>
+                                <p style="margin-bottom: 0;">Pender, NE<br>United States, Nebraska</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 1.5rem;">
+                            <div style="font-size: 1.5rem; color: var(--secondary-color);">📞</div>
+                            <div>
+                                <h4 style="margin-bottom: 0;">Phone</h4>
+                                <p style="margin-bottom: 0;"><a href="tel:4025188471" style="color: var(--primary-color); font-weight: 600;">(402) 518-8471</a></p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 1.5rem;">
+                            <div style="font-size: 1.5rem; color: var(--secondary-color);">✉️</div>
+                            <div>
+                                <h4 style="margin-bottom: 0;">Email</h4>
+                                <p style="margin-bottom: 0;"><a href="mailto:AAConstuction2025@outlook.com" style="color: var(--primary-color); font-weight: 600;">AAConstuction2025@outlook.com</a></p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 1.5rem;">
+                            <div style="font-size: 1.5rem; color: var(--secondary-color);">🕒</div>
+                            <div>
+                                <h4 style="margin-bottom: 0;">Hours</h4>
+                                <p style="margin-bottom: 0;">Open Now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background-color: var(--bg-color); padding: 3rem; border-radius: 8px;">
+                    <h3>Send a Message</h3>
+                    <form action="mailto:AAConstuction2025@outlook.com" method="GET" enctype="text/plain">
+                        <div style="margin-bottom: 1rem;">
+                            <label for="subject" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Subject</label>
+                            <input type="text" id="subject" name="subject" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="body" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Message</label>
+                            <textarea id="body" name="body" rows="5" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Email Us</button>
+                        <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #666;">This will open your default email client.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <app-footer></app-footer>
+
+</body>
+</html>
